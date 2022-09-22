@@ -1,4 +1,11 @@
 # Logs
+.vscode
+.idea
+node_modules
+.env
+*.psd
+build/
+.DS_Store (тільки якщо в тебе MacOS)
 logs
 *.log
 npm-debug.log*
