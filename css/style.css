@@ -1,4 +1,6 @@
 body {
+    background-color: #F5F5F5;
+    color: 757575;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -6,4 +8,15 @@ body {
 /* цвет основного текста #212121  */
 /* вторичный цвет #757575 */
 /* белый цвет #FFFFFF */
-/* голубой цвет #2196F3 */
+/* акцент голубой цвет #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+/* футер контакт rgba(255, 255, 255, 0.6) */
+.logo {
+    color: #000000;
+}
+.web {
+    color: #2196F3;
+}
+.list {
+    list-style: none;
+}
