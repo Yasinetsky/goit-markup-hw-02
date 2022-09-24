@@ -1,45 +1,87 @@
-body {
-    background-color: #F5F5F5;
-    color: 757575;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Raleway', sans-serif;
-}
-/* цвет основного текста #212121  */
-/* вторичный цвет #757575 */
+
+/* цвет заголовков #212121  */
+/* основной цвет #757575 */
 /* белый цвет #FFFFFF */
 /* акцент голубой цвет #2196F3 */
 /* вторичный цвет фона #F5F4FA */
 /* футер контакт rgba(255, 255, 255, 0.6) */
+
+
+:root{
+    --primery-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --color-white: #FFFFFF;
+
+}
+body {
+    background-color: #F5F5F5;
+    color: var(--primery-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
 .logo {
     color: #000000;
 }
+
 .logo:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
+
 .web {
-    color: #2196F3;
+    color: var(--accent-color);
 }
+
 .list {
     list-style: none;
 }
+
 /* Menu Nav */
+
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
+
 /* Contact */
+
 .auth-nav  {
 
 }
+
 /* order */
+
 .order {
 
 }
+
+.order-title {
+    color: var(--color-white);
+}
+
 /* Features */
+
 .section-title {
-    color: #212121;
+    color: var(--title-text-color) ;
+}
+
+.Features-list .title {
+    color: var(--title-text-color) ;
+}
+
+/* About US  */
+
+.about-title {
+    color: var(--title-text-color);
+}
+
+/* Team  */
+.team-list .title {
+    color: var(--title-text-color);
 }
