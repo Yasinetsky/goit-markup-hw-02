@@ -1,9 +1,9 @@
 body {
     background-color: #F5F5F5;
     color: 757575;
+    font-family: 'Roboto', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
 }
 /* цвет основного текста #212121  */
 /* вторичный цвет #757575 */
@@ -14,9 +14,32 @@ body {
 .logo {
     color: #000000;
 }
+.logo:focus {
+    color: #2196F3;
+}
 .web {
     color: #2196F3;
 }
 .list {
     list-style: none;
+}
+/* Menu Nav */
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+/* Contact */
+.auth-nav  {
+
+}
+/* order */
+.order {
+
+}
+/* Features */
+.section-title {
+    color: #212121;
 }
