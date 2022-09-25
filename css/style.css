@@ -14,6 +14,7 @@
     --primary-color-white: #FFFFFF;
     --color-black: #000;
     --second-bg-color: #F5F4FA;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
 
 }
 body {
@@ -51,28 +52,21 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color)
+}
 /* contacts */
 
-.contacts-nav {
-    
+.contacts-nav .contacts{
+    color: var(--primery-text-color);
+}
+
+.contacts-nav .contacts:hover,
+.contacts-nav .contacts:focus {
+    color: var(--accent-color)
 }
 
 /* order */
-
-.button {
-    background-color: var(--accent-color);
-    color: var(--primary-color-white);
-}
-
-.button.rimary {
-    background-color: var(--second-bg-color);
-    color: var(--title-text-color);
-}
-
-.button.second {
-    background-color: var(--accent-color);
-    color: var(--primary-color-white);
-}
 
 .order-title {
     color: var(--primary-color-white);
@@ -103,4 +97,28 @@ body {
 
 .footer .web {
     color: var(--primary-color-white);
+}
+
+.footer .address p {
+    color: var(--primary-color-white);
+}
+
+.footer .address a {
+    color: var(--footer-contact-color);
+}
+/* Buttom */
+
+.button {
+    color: var(--primary-color-white);
+    background-color: var(--accent-color);
+}
+
+.button.rimary {
+    color: var(--title-text-color);
+    background-color: var(--second-bg-color);
+}
+
+.button.second {
+    color: var(--primary-color-white);
+    background-color: var(--accent-color);
 }
