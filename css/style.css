@@ -113,7 +113,7 @@ body {
     background-color: var(--accent-color);
 }
 
-.button.rimary {
+.button.primary {
     color: var(--title-text-color);
     background-color: var(--second-bg-color);
 }
@@ -121,4 +121,15 @@ body {
 .button.second {
     color: var(--primary-color-white);
     background-color: var(--accent-color);
+}
+
+/* Project */
+
+.project-nav .button:hover,
+.project-nav .button:focus {
+    color: var(--primary-color-white);
+    background-color: var(--accent-color);
+}
+.project-group .second-title {
+    color: var(--title-text-color);
 }
