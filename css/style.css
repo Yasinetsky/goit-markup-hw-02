@@ -15,18 +15,21 @@
     --color-black: #000;
     --second-bg-color: #F5F4FA;
     --footer-contact-color: rgba(255, 255, 255, 0.6);
-
 }
+
 body {
     background-color: #F5F5F5;
     color: var(--primery-text-color);
     font-family: 'Roboto', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .logo {
     color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .logo:focus {
@@ -45,6 +48,10 @@ body {
 
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -59,6 +66,10 @@ body {
 
 .contacts-nav .contacts{
     color: var(--primery-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contacts-nav .contacts:hover,
@@ -70,27 +81,57 @@ body {
 
 .order-title {
     color: var(--primary-color-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.order .button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
 }
 
 /* Features */
 
-.section-title {
-    color: var(--title-text-color);
-}
-
 .Features-list .title {
     color: var(--title-text-color) ;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.Features-list p {
+    font-size: 14px;
+    line-height: 1.17;
 }
 
 /* About US  */
 
-.about-title {
+.section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
 
 /* Team  */
 .team-list .title {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.team-list p {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
 }
 
 /* footer */
@@ -101,16 +142,21 @@ body {
 
 .footer .address p {
     color: var(--primary-color-white);
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .footer .address a {
     color: var(--footer-contact-color);
+    font-size: 14px;
+    line-height: 1.71;
 }
 /* Buttom */
 
 .button {
     color: var(--primary-color-white);
     background-color: var(--accent-color);
+    font-family: inherit;
 }
 
 .button.primary {
@@ -125,8 +171,8 @@ body {
 
 /* Project */
 
-.project-nav .button:hover,
-.project-nav .button:focus {
+.project-filter .button:hover,
+.project-filter .button:focus {
     color: var(--primary-color-white);
     background-color: var(--accent-color);
 }
