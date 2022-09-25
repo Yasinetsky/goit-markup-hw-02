@@ -170,12 +170,32 @@ body {
 }
 
 /* Project */
+ 
+/* Filter */
+
+.project-filter .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
 
 .project-filter .button:hover,
 .project-filter .button:focus {
     color: var(--primary-color-white);
     background-color: var(--accent-color);
 }
+
+/* Gruop */
+
 .project-group .second-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project .project-group p {
+    font-size: 16px;
+    line-height: 1.87;
 }
