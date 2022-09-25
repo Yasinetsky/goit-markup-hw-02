@@ -1,7 +1,7 @@
 
 /* цвет заголовков #212121  */
 /* основной цвет #757575 */
-/* белый цвет #FFFFFF */
+/* первый цвет фона #FFFFFF */
 /* акцент голубой цвет #2196F3 */
 /* вторичный цвет фона #F5F4FA */
 /* футер контакт rgba(255, 255, 255, 0.6) */
@@ -11,7 +11,9 @@
     --primery-text-color:#757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --color-white: #FFFFFF;
+    --primary-color-white: #FFFFFF;
+    --color-black: #000;
+    --second-bg-color: #F5F4FA;
 
 }
 body {
@@ -23,7 +25,7 @@ body {
 }
 
 .logo {
-    color: #000000;
+    color: var(--accent-color);
 }
 
 .logo:focus {
@@ -31,7 +33,7 @@ body {
 }
 
 .web {
-    color: var(--accent-color);
+    color: var(--color-black);
 }
 
 .list {
@@ -49,26 +51,37 @@ body {
     color: var(--accent-color);
 }
 
-/* Contact */
+/* contacts */
 
-.auth-nav  {
-
+.contacts-nav {
+    
 }
 
 /* order */
 
-.order {
+.button {
+    background-color: var(--accent-color);
+    color: var(--primary-color-white);
+}
 
+.button.rimary {
+    background-color: var(--second-bg-color);
+    color: var(--title-text-color);
+}
+
+.button.second {
+    background-color: var(--accent-color);
+    color: var(--primary-color-white);
 }
 
 .order-title {
-    color: var(--color-white);
+    color: var(--primary-color-white);
 }
 
 /* Features */
 
 .section-title {
-    color: var(--title-text-color) ;
+    color: var(--title-text-color);
 }
 
 .Features-list .title {
@@ -84,4 +97,10 @@ body {
 /* Team  */
 .team-list .title {
     color: var(--title-text-color);
+}
+
+/* footer */
+
+.footer .web {
+    color: var(--primary-color-white);
 }
