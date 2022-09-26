@@ -157,6 +157,7 @@ body {
     color: var(--primary-color-white);
     background-color: var(--accent-color);
     font-family: inherit;
+    cursor: pointer;
 }
 
 .button.primary {
