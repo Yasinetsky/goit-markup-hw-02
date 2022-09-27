@@ -142,11 +142,13 @@ body {
 }
 
 .footer .address p {
+    font-style: normal;
     color: var(--primary-color-white);
     line-height: 1.71;
 }
 
 .footer .address a {
+    font-style: normal;
     color: var(--footer-contact-color);
     line-height: 1.71;
     text-decoration: none;
